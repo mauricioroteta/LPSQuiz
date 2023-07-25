@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Juego de preguntas</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+  <style>
+    * {
+      transition: all 0.3s;
+    }
+
+    body {
+      background:rgb(207,16,46);
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-family: calibri;
+      font-size: 120%;
+    }
+
+    .logolps{
+      height: 30vh;
+    }
+
+    .contenedor {
+      width: 98vw;
+      height: 97vh;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .encabezado {
+      position: relative;
+      background: white;
+      min-width: 300px;
+      width: 70%;
+      max-width: 600px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .categoria {
+      opacity: 0.3;
+      text-align: left;
+    }
+
+    .pregunta {
+      /* padding: 10px; */
+      visibility: hidden;
+    }
+
+    .imagen {
+      object-fit: cover;
+      height: 50px;
+      width: 50px;
+    }
+
+    .btn {
+      background: white;
+      width: 60%;
+      max-width: 550px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 20px;
+      box-shadow: 8px 8px 4px rgb(97, 64, 64);
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+    }
+    
+    .numero{
+      visibility: hidden;
+      position: absolute;
+      opacity:0.3;
+      top: 10px;
+      right: 10px;
+    }
+    
+    .puntaje{
+      padding:10px;
+      color:white;
+    }
+  </style>
+
+  <div class="contenedor">
+    <img src="assert/LPS-Website-lps-iso.svg" class="logolps" id="logolps">
+    <div class="puntaje" id="puntaje"></div>
+    <div class="encabezado">
+      <div class="categoria" id="categoria">
+      </div>
+      <div class="numero" id="numero"></div> 
+      <div class="pregunta" id="pregunta">
+      </div>
+      <img src="#" class="imagen" id="imagen">
+    </div>
+    <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+    <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+    <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+    <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+    
+    <script src="index.js"></script>
+  </div>
+</body></html>

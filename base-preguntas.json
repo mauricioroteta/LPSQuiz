@@ -1,0 +1,77 @@
+[
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "No avanzar",
+     "respuesta": "No avanzar",
+     "incorrecta1": "Contramano",
+     "incorrecta2": "Prohibido circular acoplados",
+     "incorrecta3": "Prohibido circular autos",
+     "imagen": "./img/No avanzar.jpg",
+     "objectFit": "cover"
+    },
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "Contramano",
+     "respuesta": "Contramano",
+     "incorrecta1": "Prohibido circular autos",
+     "incorrecta2": "Prohibido circular acoplados",
+     "incorrecta3": "Prohibido circular camiones",
+     "imagen": "./img/Contramano.jpg",
+     "objectFit": "cover"
+    },
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "Prohibido circular autos",
+     "respuesta": "Prohibido circular autos",
+     "incorrecta1": "Contramano",
+     "incorrecta2": "Prohibido circular motos",
+     "incorrecta3": "Prohibido circular peatones",
+     "imagen": "./img/Prohibido circular autos.jpg",
+     "objectFit": "cover"
+    },
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "Prohibido circular motos",
+     "respuesta": "Prohibido circular motos",
+     "incorrecta1": "Contramano",
+     "incorrecta2": "Prohibido circular acoplados",
+     "incorrecta3": "Prohibido circular peatones",
+     "imagen": "./img/Prohibido circular motos.jpg"
+    },
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "Prohibido circular bicicletas",
+     "respuesta": "Prohibido circular bicicletas",
+     "incorrecta1": "Prohibido circular acoplados",
+     "incorrecta2": "Prohibido circular motos",
+     "incorrecta3": "Prohibido circular peatones",
+     "imagen": "./img/Prohibido circular bicicletas.jpg"
+    },
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "Prohibido circular camiones",
+     "respuesta": "Prohibido circular camiones",
+     "incorrecta1": "Prohibido circular acoplados",
+     "incorrecta2": "Prohibido circular motos",
+     "incorrecta3": "Prohibido circular peatones",
+     "imagen": "./img/Prohibido circular camiones.jpg"
+    },
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "Prohibido circular acoplados",
+     "respuesta": "Prohibido circular acoplados",
+     "incorrecta1": "Contramano",
+     "incorrecta2": "Prohibido circular motos",
+     "incorrecta3": "Prohibido circular peatones",
+     "imagen": "./img/Prohibido circular acoplados.jpg"
+    },
+    {
+     "categoria": "PROHIBICIÓN",
+     "pregunta": "Prohibido circular peatones",
+     "respuesta": "Prohibido circular peatones",
+     "incorrecta1": "Contramano",
+     "incorrecta2": "Prohibido circular motos",
+     "incorrecta3": "Prohibido circular acoplados",
+     "imagen": "./img/Prohibido circular peatones.jpg"
+    }
+   ]
