@@ -1,0 +1,183 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: AC16-D0D1
+
+ Directorio de C:\Users\Mauricio\Desktop\LPSQuiz\img
+
+26/07/2023  22:01    <DIR>          .
+26/07/2023  22:01    <DIR>          ..
+26/07/2023  22:01                 0 arch.txt
+21/07/2023  09:59             2,589 Contramano.jpg
+26/07/2023  21:57    <DIR>          informacion
+26/07/2023  21:58    <DIR>          maximo peligro
+21/07/2023  09:59             3,689 No avanzar.jpg
+26/07/2023  21:58    <DIR>          preventivas
+21/07/2023  10:02             3,525 Prohibido circular acoplados.jpg
+21/07/2023  09:59             3,849 Prohibido circular autos.jpg
+21/07/2023  10:16             3,898 Prohibido circular bicicletas.jpg
+21/07/2023  10:01             3,421 Prohibido circular camiones.jpg
+21/07/2023  10:00             3,851 Prohibido circular motos.jpg
+21/07/2023  10:02             3,787 Prohibido circular peatones.jpg
+26/07/2023  21:58    <DIR>          restriccion
+               9 archivos         28,609 bytes
+
+ Directorio de C:\Users\Mauricio\Desktop\LPSQuiz\img\informacion
+
+26/07/2023  21:57    <DIR>          .
+26/07/2023  21:57    <DIR>          ..
+25/07/2023  09:24           201,219 aeropuerto-20.jpg
+25/07/2023  08:51           305,562 ambas direcciones permitidas-10.jpg
+25/07/2023  08:51           324,229 bifurcacion permitida-09.jpg
+25/07/2023  08:49           190,625 camino o calle sin salida-06.jpg
+25/07/2023  08:47           209,163 comienzo autopista_Mesa de trabajo 1.jpg
+25/07/2023  08:49           227,848 desvio por cambio de sentido de circulacion-05.jpg
+25/07/2023  08:51           278,987 direccion permitida-08.jpg
+25/07/2023  08:52           311,220 direcciones permitidas-12.jpg
+25/07/2023  08:48           213,885 esquema de recorrido-04.jpg
+25/07/2023  09:19           203,148 estacion de servicio-15.jpg
+25/07/2023  09:19           169,866 estacionamiento permitido-16.jpg
+25/07/2023  08:47           292,562 fin de autopista-02.jpg
+25/07/2023  09:25           228,993 gomeria-23.jpg
+25/07/2023  08:54           215,638 hospital o sala sanitaria-13.jpg
+25/07/2023  09:21           191,720 hotel-18.jpg
+25/07/2023  09:28           199,882 identificacion comienzo de zona urbana-27.jpg
+25/07/2023  09:28           206,663 identificacion de jurisdiccion-28.jpg
+26/07/2023  21:56    <DIR>          informacion
+25/07/2023  09:29           164,740 mojon kilometro-30.jpg
+25/07/2023  09:25           198,007 museo-22.jpg
+25/07/2023  09:29           201,249 nomenclatura de autopista-29.jpg
+25/07/2023  08:52           273,023 permitido estacionar-11.jpg
+25/07/2023  09:25           204,293 policia-21.jpg
+25/07/2023  09:23           218,370 restaurante-19.jpg
+25/07/2023  09:27           213,768 ruta nacional-26.jpg
+25/07/2023  09:27           159,607 ruta provincial-25.jpg
+25/07/2023  08:49           299,625 sentido de giro permitido-07.jpg
+25/07/2023  08:55           232,018 servicio mecanico-14.jpg
+25/07/2023  09:20           225,743 servicio telefonico-17.jpg
+25/07/2023  08:48           290,463 utilizacion de carriles-03.jpg
+              29 archivos      6,652,116 bytes
+
+ Directorio de C:\Users\Mauricio\Desktop\LPSQuiz\img\informacion\informacion
+
+26/07/2023  21:56    <DIR>          .
+26/07/2023  21:56    <DIR>          ..
+25/07/2023  09:24           201,219 aeropuerto-20.jpg
+25/07/2023  08:51           305,562 ambas direcciones permitidas-10.jpg
+25/07/2023  08:51           324,229 bifurcacion permitida-09.jpg
+25/07/2023  08:49           190,625 camino o calle sin salida-06.jpg
+25/07/2023  08:47           209,163 comienzo autopista_Mesa de trabajo 1.jpg
+25/07/2023  08:49           227,848 desvio por cambio de sentido de circulacion-05.jpg
+25/07/2023  08:51           278,987 direccion permitida-08.jpg
+25/07/2023  08:52           311,220 direcciones permitidas-12.jpg
+25/07/2023  08:48           213,885 esquema de recorrido-04.jpg
+25/07/2023  09:19           203,148 estacion de servicio-15.jpg
+25/07/2023  09:19           169,866 estacionamiento permitido-16.jpg
+25/07/2023  08:47           292,562 fin de autopista-02.jpg
+25/07/2023  09:25           228,993 gomeria-23.jpg
+25/07/2023  08:54           215,638 hospital o sala sanitaria-13.jpg
+25/07/2023  09:21           191,720 hotel-18.jpg
+25/07/2023  09:28           199,882 identificacion comienzo de zona urbana-27.jpg
+25/07/2023  09:28           206,663 identificacion de jurisdiccion-28.jpg
+25/07/2023  09:29           164,740 mojon kilometro-30.jpg
+25/07/2023  09:25           198,007 museo-22.jpg
+25/07/2023  09:29           201,249 nomenclatura de autopista-29.jpg
+25/07/2023  08:52           273,023 permitido estacionar-11.jpg
+25/07/2023  09:25           204,293 policia-21.jpg
+25/07/2023  09:23           218,370 restaurante-19.jpg
+25/07/2023  09:27           213,768 ruta nacional-26.jpg
+25/07/2023  09:27           159,607 ruta provincial-25.jpg
+25/07/2023  08:49           299,625 sentido de giro permitido-07.jpg
+25/07/2023  08:55           232,018 servicio mecanico-14.jpg
+25/07/2023  09:20           225,743 servicio telefonico-17.jpg
+25/07/2023  08:48           290,463 utilizacion de carriles-03.jpg
+              29 archivos      6,652,116 bytes
+
+ Directorio de C:\Users\Mauricio\Desktop\LPSQuiz\img\maximo peligro
+
+26/07/2023  21:58    <DIR>          .
+26/07/2023  21:58    <DIR>          ..
+24/07/2023  15:40           125,303 atencion-03.png
+24/07/2023  15:41           134,244 cruce de peatones-04.png
+24/07/2023  15:40           133,626 cruce ferroviario_Mesa de trabajo 1.png
+24/07/2023  15:40            67,603 cruz de san andres-02.png
+24/07/2023  15:41           130,952 curva peligrosa-05.png
+24/07/2023  15:42            47,520 panel de prevencion curva-06.png
+24/07/2023  15:43            47,139 panel de prevencion curva-09.png
+24/07/2023  15:42            40,449 panel de prevencion obstaculos rigidos-07.png
+24/07/2023  15:42            44,889 panel de prevencion-08.png
+               9 archivos        771,725 bytes
+
+ Directorio de C:\Users\Mauricio\Desktop\LPSQuiz\img\preventivas
+
+26/07/2023  21:58    <DIR>          .
+26/07/2023  21:58    <DIR>          ..
+24/07/2023  15:24           550,889 altura limitada-25.jpg
+24/07/2023  15:24           531,568 ancho limitado-26.jpg
+24/07/2023  15:23           538,549 animales sueltos-22.jpg
+24/07/2023  15:24           487,638 baden-23.jpg
+24/07/2023  15:20           479,721 bifurcacion T-19.jpg
+24/07/2023  15:20           496,322 bifurcacion Y-18.jpg
+24/07/2023  15:11           545,086 calzada dividida-08.jpg
+24/07/2023  15:08           590,418 calzada resbaladiza-02.jpg
+24/07/2023  15:19            51,674 camino lateral izquierdo-17.png
+24/07/2023  15:16           519,670 camino lateral oblicuo-14.jpg
+24/07/2023  15:23           539,542 corredor aereo-20.jpg
+24/07/2023  15:19            51,311 cruce de caminos-16.png
+24/07/2023  15:12           508,469 curva contracurva-10.jpg
+24/07/2023  15:12           508,429 curva en s-11.jpg
+24/07/2023  15:13           516,727 curva sinuosa-12.jpg
+24/07/2023  15:11           511,041 curva-09.jpg
+24/07/2023  15:18            65,034 doble circulacion-15.png
+24/07/2023  15:23           558,412 escuela-21.jpg
+24/07/2023  15:11           500,436 irregularidad serrucho-07.jpg
+24/07/2023  15:24           486,708 lomo de burro-24.jpg
+24/07/2023  15:04           611,742 maquinaria agricola_Mesa de trabajo 1.jpg
+24/07/2023  15:09           551,821 pendiente peligrosa-04.jpg
+24/07/2023  15:26           666,383 proximidad a se¤ales restrictivas-29.jpg
+24/07/2023  15:26           516,581 proximidad de semaforo-28.jpg
+24/07/2023  15:27           582,323 puente movil-30.jpg
+24/07/2023  15:13           550,207 Rotonda-13.jpg
+24/07/2023  15:09           558,752 subida peligrosa-05.jpg
+24/07/2023  15:26           572,187 tunel-27.jpg
+24/07/2023  15:10           546,741 vientos fuertes laterales-06.jpg
+24/07/2023  15:09           577,391 zona de derrumbes-03.jpg
+              30 archivos     14,771,772 bytes
+
+ Directorio de C:\Users\Mauricio\Desktop\LPSQuiz\img\restriccion
+
+26/07/2023  21:58    <DIR>          .
+26/07/2023  21:58    <DIR>          ..
+25/07/2023  12:25           417,151 altura max permitida-25.jpg
+25/07/2023  12:14           118,761 ancho max permitido-02.png
+25/07/2023  12:26           460,019 bandillera-28.jpg
+25/07/2023  12:16           423,541 carga maxima permitida en eje-06.jpg
+25/07/2023  12:14           112,916 carga maxima permitida_Mesa de trabajo 1.png
+25/07/2023  12:21           393,203 ceda el paso-17.jpg
+25/07/2023  12:21           531,331 circulacion exclusiva-18.jpg
+25/07/2023  12:20           385,904 circulacion obligatoria-14.jpg
+25/07/2023  12:26           209,161 conos-30.jpg
+25/07/2023  12:23           422,583 contramano-23.jpg
+25/07/2023  12:25           470,453 desvio-26.jpg
+25/07/2023  12:22           331,067 detencion obligatoria-20.jpg
+25/07/2023  12:19           401,357 doble circulacion-13.jpg
+25/07/2023  12:16           406,419 estacionamiento exclusivo-08.jpg
+25/07/2023  12:25           434,824 estrechamiento de calzada-27.jpg
+25/07/2023  12:16           434,337 limite de largo-07.jpg
+25/07/2023  12:23           429,616 limite velocidad maxima-24.jpg
+25/07/2023  12:17           483,203 limite velocidad minima-09.jpg
+25/07/2023  12:14           118,479 no avanzar-03.png
+25/07/2023  12:20           446,358 no estacionar ni detenerse-15.jpg
+25/07/2023  12:15           408,004 no girar a la derecha-04.jpg
+25/07/2023  12:22           410,562 prioridad de paso-21.jpg
+25/07/2023  12:18           413,248 prohibido adelantarse-12.jpg
+25/07/2023  12:17           457,581 prohibido circ bicicletas-10.jpg
+25/07/2023  12:21           397,105 prohibido estacionar-16.jpg
+25/07/2023  12:15           420,509 prohibido girar en u-05.jpg
+25/07/2023  12:17           409,869 prohibido tocar bocina-11.jpg
+25/07/2023  12:23           373,115 puesto de control-22.jpg
+25/07/2023  12:22           583,365 uso de cadenas-19.jpg
+25/07/2023  12:26           335,107 vallas-29.jpg
+              30 archivos     11,639,148 bytes
+
+     Total de archivos en la lista:
+             136 archivos     40,515,486 bytes
+              17 dirs  59,487,404,032 bytes libres
