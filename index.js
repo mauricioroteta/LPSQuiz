@@ -61,7 +61,7 @@ function escogerPregunta(n) {
   let pc = preguntas_correctas;
   if (preguntas_hechas > 0) {
     //select_id("puntaje").innerHTML = pc + " / " + (preguntas_hechas - 1) + " de " + nro_Preguntas;
-    select_id("puntaje").innerHTML = "Intentos: " + preguntas_hechas + " / "+ nro_Preguntas + " Aciertos: " + pc ;
+    select_id("puntaje").innerHTML = "Intentos: " + preguntas_hechas + "/"+ nro_Preguntas + " - Aciertos: " + pc ;
   } else {
     select_id("puntaje").innerHTML = "";
   }

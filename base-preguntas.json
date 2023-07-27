@@ -485,7 +485,7 @@
         "respuesta": "corredor aereo",
         "incorrecta1": "nomenclatura de autopista",
         "incorrecta2": "zona de derrumbes",
-        "incorrecta3": "zona de derrumbes",
+        "incorrecta3": "doble circulacion",
         "imagen": "./img/corredor aereo-20.jpg",
         "objectFit": "cover"
        },
@@ -525,7 +525,7 @@
         "respuesta": "curva sinuosa",
         "incorrecta1": "museo",
         "incorrecta2": "baden",
-        "incorrecta3": "museo",
+        "incorrecta3": "zona de derrumbes",
         "imagen": "./img/curva sinuosa-12.jpg",
         "objectFit": "cover"
        },
@@ -614,7 +614,7 @@
         "pregunta": "proximidad de semaforo",
         "respuesta": "proximidad de semaforo",
         "incorrecta1": "cruce ferroviario",
-        "incorrecta2": "prohibido tocar bocina",
+        "incorrecta2": "zona de derrumbes",
         "incorrecta3": "prohibido tocar bocina",
         "imagen": "./img/proximidad de semaforo-28.jpg",
         "objectFit": "cover"
@@ -673,7 +673,7 @@
         "categoria": "preventivas",
         "pregunta": "zona de derrumbes",
         "respuesta": "zona de derrumbes",
-        "incorrecta1": "zona de derrumbes",
+        "incorrecta1": "puesto de control",
         "incorrecta2": "vallas",
         "incorrecta3": "panel de prevencion obstaculos rigidos",
         "imagen": "./img/zona de derrumbes-03.jpg",
@@ -684,7 +684,7 @@
         "pregunta": "altura max permitida",
         "respuesta": "altura max permitida",
         "incorrecta1": "puesto de control",
-        "incorrecta2": "altura max permitida",
+        "incorrecta2": "panel de prevencion obstaculos rigidos",
         "incorrecta3": "nomenclatura de autopista",
         "imagen": "./img/altura max permitida-25.jpg",
         "objectFit": "cover"
