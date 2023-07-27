@@ -1,7 +1,7 @@
 let preguntas_aleatorias = true;
 let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
-let nro_Preguntas = 3;
+let nro_Preguntas = 10;
 
 window.onload = function () {
   base_preguntas = readText("base-preguntas.json");
@@ -69,11 +69,11 @@ function escogerPregunta(n) {
   desordenarRespuestas(pregunta);
   if (pregunta.imagen) {
     select_id("imagen").setAttribute("src", pregunta.imagen);
-    style("imagen").height = "100px";
-    style("imagen").width = "100px";
+    style("imagen").height = "300px";
+    style("imagen").width = "300px";
   } else {
-    style("imagen").height = "100px";
-    style("imagen").width = "100px";
+    style("imagen").height = "300px";
+    style("imagen").width = "300px";
     setTimeout(() => {
       select_id("imagen").setAttribute("src", "");
     }, 500);
