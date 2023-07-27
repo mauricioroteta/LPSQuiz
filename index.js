@@ -1,7 +1,7 @@
 let preguntas_aleatorias = true;
 let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
-let nro_Preguntas = 10;
+let nro_Preguntas = 5;
 
 window.onload = function () {
   base_preguntas = readText("base-preguntas.json");
