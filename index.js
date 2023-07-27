@@ -55,12 +55,13 @@ function escogerPreguntaAleatoria() {
 
 function escogerPregunta(n) {
   pregunta = interprete_bp[n];
-  select_id("categoria").innerHTML = pregunta.categoria;
-  select_id("pregunta").innerHTML = pregunta.pregunta;
+  select_id("categoria").innerHTML = pregunta.categoria.toUpperCase();
+  select_id("pregunta").innerHTML = pregunta.pregunta.toUpperCase();
   select_id("numero").innerHTML = n;
   let pc = preguntas_correctas;
-  if (preguntas_hechas > 1) {
-    select_id("puntaje").innerHTML = pc + " de " + (preguntas_hechas - 1);
+  if (preguntas_hechas > 0) {
+    //select_id("puntaje").innerHTML = pc + " / " + (preguntas_hechas - 1) + " de " + nro_Preguntas;
+    select_id("puntaje").innerHTML = "Intentos: " + preguntas_hechas + " / "+ nro_Preguntas + " Aciertos: " + pc ;
   } else {
     select_id("puntaje").innerHTML = "";
   }
@@ -69,11 +70,11 @@ function escogerPregunta(n) {
   desordenarRespuestas(pregunta);
   if (pregunta.imagen) {
     select_id("imagen").setAttribute("src", pregunta.imagen);
-    style("imagen").height = "300px";
-    style("imagen").width = "300px";
+    style("imagen").height = "20rem";
+    style("imagen").width = "20rem";
   } else {
-    style("imagen").height = "300px";
-    style("imagen").width = "300px";
+    style("imagen").height = "20rem";
+    style("imagen").width = "20rem";
     setTimeout(() => {
       select_id("imagen").setAttribute("src", "");
     }, 500);
@@ -82,10 +83,10 @@ function escogerPregunta(n) {
 
 function desordenarRespuestas(pregunta) {
   posibles_respuestas = [
-    pregunta.respuesta,
-    pregunta.incorrecta1,
-    pregunta.incorrecta2,
-    pregunta.incorrecta3,
+    pregunta.respuesta.toUpperCase(),
+    pregunta.incorrecta1.toUpperCase(),
+    pregunta.incorrecta2.toUpperCase(),
+    pregunta.incorrecta3.toUpperCase(),
   ];
   posibles_respuestas.sort(() => Math.random() - 0.5);
 
@@ -102,7 +103,7 @@ function oprimir_btn(i) {
     return;
   }
   suspender_botones = true;
-  if (posibles_respuestas[i] == pregunta.respuesta) {
+  if (posibles_respuestas[i].toUpperCase() == pregunta.respuesta.toUpperCase()) {
     preguntas_correctas++;
     btn_correspondiente[i].style.background = "lightgreen";
   } else {

@@ -23,9 +23,14 @@
       height: 10vh;
     }
 
+    .contenedor-1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
     .contenedor {
-      width: 98vw;
-      height: 97vh;
       display: inline-flex;
       flex-direction: column;
       justify-content: center;
@@ -35,7 +40,7 @@
     .encabezado {
       position: relative;
       background: white;
-      width: 600px;
+      width: 30rem;
       padding: 5px;
       border-radius: 20px;
     }
@@ -58,13 +63,13 @@
 
     .btn {
       background: white;
-      width: 60%;
-      max-width: 550px;
+      width: 80%;
+      max-width: 100%;
       padding: 10px;
       margin: 5px;
       cursor: pointer;
       border-radius: 20px;
-      box-shadow: 8px 8px 4px rgb(97, 64, 64);
+      box-shadow: 6px 6px 3px rgb(97, 64, 64);
     }
 
     .btn:hover {
@@ -83,10 +88,18 @@
       padding:10px;
       color:white;
     }
+
+    .text-center {
+    color: rgb(254,214,4);
+}
   </style>
+  <div class="contenedor-1">
+    <img src="assert/LPS-Website-lps-iso.svg" class="logolps" id="logolps">
+    <h1 class="text-center">Jugá con La Perseverancia Seguros</h1>
+    <img src="assert/LPS-Website-lps-iso.svg" class="logolps" id="logolps">
+  </div>
 
   <div class="contenedor">
-    <!-- <img src="assert/LPS-Website-lps-iso.svg" class="logolps" id="logolps"> -->
     <div class="puntaje" id="puntaje"></div>
     <div class="encabezado">
       <div class="categoria" id="categoria">
@@ -103,4 +116,9 @@
     
     <script src="index.js"></script>
   </div>
+  <footer class="px-2 py-2 fixed-bottom bg-danger text-white">
+    <span>
+    <!--   <a class="text-white" href="ganadores.html"> Ver Ganadores </a> --> 
+    </span>
+</footer>
 </body></html>
