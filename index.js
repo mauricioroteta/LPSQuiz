@@ -33,12 +33,20 @@ function escogerPreguntaAleatoria() {
     if (preguntas_hechas == nro_Preguntas) {
       //Aquí es donde el juego se reinicia
       if (mostrar_pantalla_juego_términado) {
-        swal.fire({
-          title: "Juego finalizado",
-          text:
+        if (preguntas_correctas == 5){
+          swal.fire({
+            title: "¡Felicitaciones! Has ganado",
+            imageUrl: './assert/festejo_5.gif', imageWidth: 400, imageHeight: 300, imageAlt: 'Ganador',
+            text:
             "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
-          icon: "success"
-        });
+          });
+        }else{
+          swal.fire({
+            title: "¡Perdiste!",
+            imageUrl: './assert/gameover.gif', imageWidth: 400, imageHeight: 400, imageAlt: 'Ganador',
+            text: "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
+          });
+        }
       }
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0
