@@ -85,7 +85,7 @@ function escogerPregunta(n) {
     style("imagen").width = "20rem";
     setTimeout(() => {
       select_id("imagen").setAttribute("src", "");
-    }, 100);
+    }, 500);
   }
 }
 
@@ -126,7 +126,7 @@ function oprimir_btn(i) {
   setTimeout(() => {
     reiniciar();
     suspender_botones = false;
-  }, 3000);
+  }, 500);
 }
 
 // let p = prompt("numero")
