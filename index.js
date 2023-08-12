@@ -1,7 +1,7 @@
 let preguntas_aleatorias = true;
 let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
-let nro_Preguntas = 5;
+let nro_Preguntas = 8;
 
 window.onload = function () {
   base_preguntas = readText("base-preguntas.json");
@@ -85,7 +85,7 @@ function escogerPregunta(n) {
     style("imagen").width = "20rem";
     setTimeout(() => {
       select_id("imagen").setAttribute("src", "");
-    }, 500);
+    }, 100);
   }
 }
 
