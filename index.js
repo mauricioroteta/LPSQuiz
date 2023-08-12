@@ -33,7 +33,7 @@ function escogerPreguntaAleatoria() {
     if (preguntas_hechas == nro_Preguntas) {
       //Aquí es donde el juego se reinicia
       if (mostrar_pantalla_juego_términado) {
-        if (preguntas_correctas == 5){
+        if (preguntas_correctas == nro_Preguntas){
           swal.fire({
             title: "¡Felicitaciones! Has ganado",
             imageUrl: './assert/festejo_5.gif', imageWidth: 400, imageHeight: 300, imageAlt: 'Ganador',
@@ -118,7 +118,7 @@ function oprimir_btn(i) {
     btn_correspondiente[i].style.background = "pink";
   }
   for (let j = 0; j < 4; j++) {
-    if (posibles_respuestas[j] == pregunta.respuesta) {
+    if (posibles_respuestas[j].toUpperCase() == pregunta.respuesta.toUpperCase()) {
       btn_correspondiente[j].style.background = "lightgreen";
       break;
     }
@@ -126,7 +126,7 @@ function oprimir_btn(i) {
   setTimeout(() => {
     reiniciar();
     suspender_botones = false;
-  }, 1000);
+  }, 1500);
 }
 
 // let p = prompt("numero")
