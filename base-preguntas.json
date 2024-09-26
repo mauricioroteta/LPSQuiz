@@ -96,5 +96,6 @@
 {"categoria":"restriccion","pregunta":"prohibido tocar bocina","respuesta":"prohibido tocar bocina","incorrecta1":"prohibido adelantarse","incorrecta2":"carga maxima permitida en eje","incorrecta3":"no girar a la derecha","imagen":"./img/prohibido tocar bocina-11.jpg","objectFit":"cover"},
 {"categoria":"restriccion","pregunta":"puesto de control","respuesta":"puesto de control","incorrecta1":"estacionamiento exclusivo","incorrecta2":"circulacion exclusiva","incorrecta3":"no estacionar ni detenerse","imagen":"./img/puesto de control-22.jpg","objectFit":"cover"},
 {"categoria":"restriccion","pregunta":"uso de cadenas","respuesta":"uso de cadenas","incorrecta1":"circulacion exclusiva","incorrecta2":"ancho max permitido","incorrecta3":"contramano","imagen":"./img/uso de cadenas-19.jpg","objectFit":"cover"},
-{"categoria":"restriccion","pregunta":"vallas","respuesta":"vallas","incorrecta1":"prioridad de paso","incorrecta2":"prohibido circ bicicletas","incorrecta3":"uso de cadenas","imagen":"./img/vallas-29.jpg","objectFit":"cover"}
+{"categoria":"restriccion","pregunta":"vallas","respuesta":"vallas","incorrecta1":"prioridad de paso","incorrecta2":"prohibido circ bicicletas","incorrecta3":"uso de cadenas","imagen":"./img/vallas-29.jpg","objectFit":"cover"},
+{"categoria":"IMPORTANTE","pregunta":"¿Cuál es tu compañía de confianza?","respuesta":"LPS","incorrecta1":"La Perseverancia Seguros S.A.","incorrecta2":"La Perse","incorrecta3":"La Perseverancia","imagen":"./img/LPS.jpg","objectFit":"cover"}
 ]

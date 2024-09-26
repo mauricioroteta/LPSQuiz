@@ -1,7 +1,7 @@
 let preguntas_aleatorias = true;
 let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
-let nro_Preguntas = 8;
+let nro_Preguntas = 4;
 
 window.onload = function () {
   base_preguntas = readText("base-preguntas.json");
@@ -26,34 +26,43 @@ function escogerPreguntaAleatoria() {
   let n;
   if (preguntas_aleatorias) {
     n = Math.floor(Math.random() * interprete_bp.length);
+    //Para evitar que salga la pregunta fake
+    if (n == (interprete_bp.length - 1)) {
+      n = n - 1;
+    }
   } else {
     n = 0;
   }
-  
-    if (preguntas_hechas == nro_Preguntas) {
-      //Aquí es donde el juego se reinicia
-      if (mostrar_pantalla_juego_términado) {
-        if (preguntas_correctas == nro_Preguntas){
-          swal.fire({
-            title: "¡Felicitaciones! Has ganado",
-            imageUrl: './assert/festejo_5.gif', imageWidth: 400, imageHeight: 300, imageAlt: 'Ganador',
-            text:
+
+  if (preguntas_hechas == nro_Preguntas) {
+    //Aquí es donde el juego se reinicia
+    if (mostrar_pantalla_juego_términado) {
+      if (preguntas_correctas == nro_Preguntas) {
+        swal.fire({
+          title: "¡Felicitaciones! Has ganado",
+          imageUrl: './assert/festejo_5.gif', imageWidth: 400, imageHeight: 300, imageAlt: 'Ganador',
+          text:
             "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
-          });
-        }else{
-          swal.fire({
-            title: "¡Perdiste!",
-            imageUrl: './assert/gameover.gif', imageWidth: 400, imageHeight: 400, imageAlt: 'Ganador',
-            text: "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
-          });
-        }
+        });
+      } else {
+        swal.fire({
+          title: "¡Estuvo bien... Suerte la proxima!",
+          imageUrl: './assert/festejo_5.gif', imageWidth: 400, imageHeight: 400, imageAlt: 'Ganador',
+          text: "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
+        });
       }
-      if (reiniciar_puntos_al_reiniciar_el_juego) {
-        preguntas_correctas = 0
-        preguntas_hechas = 0
-      }
-      npreguntas = [];
     }
+    if (reiniciar_puntos_al_reiniciar_el_juego) {
+      preguntas_correctas = 0
+      preguntas_hechas = 0
+    }
+    npreguntas = [];
+  }
+
+  if (preguntas_hechas == (nro_Preguntas - 1)) {
+    //Si la es la 5ta pregunta no hace random envia el ultimo indice del JSON, pregunta fake de LPS
+    n = interprete_bp.length - 1;
+  }
 
   npreguntas.push(n);
   preguntas_hechas++;
@@ -69,7 +78,7 @@ function escogerPregunta(n) {
   let pc = preguntas_correctas;
   if (preguntas_hechas > 0) {
     //select_id("puntaje").innerHTML = pc + " / " + (preguntas_hechas - 1) + " de " + nro_Preguntas;
-    select_id("puntaje").innerHTML = "Intentos: " + preguntas_hechas + "/"+ nro_Preguntas + " - Aciertos: " + pc ;
+    select_id("puntaje").innerHTML = "Intentos: " + preguntas_hechas + "/" + nro_Preguntas + " - Aciertos: " + pc;
   } else {
     select_id("puntaje").innerHTML = "";
   }
@@ -110,6 +119,18 @@ function oprimir_btn(i) {
   if (suspender_botones) {
     return;
   }
+
+  // Si es la la ultima pregunta todas son correctas
+  if (nro_Preguntas == preguntas_hechas) {
+    preguntas_correctas++;
+    btn_correspondiente[i].style.background = "lightgreen";
+    setTimeout(() => {
+      reiniciar();
+      suspender_botones = false;
+    }, 3000);
+    return;
+  }
+
   suspender_botones = true;
   if (posibles_respuestas[i].toUpperCase() == pregunta.respuesta.toUpperCase()) {
     preguntas_correctas++;
